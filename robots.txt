@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/         # Disallow access to admin directories
+Disallow: /private/       # Disallow access to private directories
+Disallow: /temp/          # Disallow access to temporary directories
+Disallow: /cgi-bin/       # Disallow access to CGI scripts
+Disallow: /images/        # Disallow access to images directory
+Disallow: /scripts/       # Disallow access to scripts directory
+Disallow: /styles/        # Disallow access to styles directory
+
+# Allow search engine crawlers to access specific pages
+Allow: /sitemap.xml
+Allow: /contact.html
+
+# Allow all other pages to be crawled
+Allow: /
