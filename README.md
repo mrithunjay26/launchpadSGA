@@ -2,7 +2,7 @@
 
 Launchpad SGA is a static multi-page website for a startup growth agency concept. It includes pricing, contact, update, SEO, sitemap, and progressive-web-app metadata, packaged as a lightweight HTML/CSS/JavaScript site that can be deployed without a build step.
 
-For recruiters, this repo is useful as a concise frontend sample: it shows practical static-site delivery, responsive Bootstrap-based layouts, vendor asset management, metadata, and a small public-facing product funnel.
+The repo is a concise frontend sample: it shows practical static-site delivery, responsive Bootstrap-based layouts, vendor asset management, metadata, and a small product funnel.
 
 ## What it demonstrates
 
@@ -40,6 +40,6 @@ Then open `http://localhost:8000`.
 - `assets/` - stylesheets, JavaScript, fonts, icons, and images.
 - `sitemap.xml`, `robots.txt`, `manifest.json` - public web metadata.
 
-## Reviewer notes
+## Implementation notes
 
 This project is intentionally small. The strongest signal is the ability to ship a complete, static marketing site with routing, metadata, assets, and deployment-ready structure rather than only a single HTML mockup.
